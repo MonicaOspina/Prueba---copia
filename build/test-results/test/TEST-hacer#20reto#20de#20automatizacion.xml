@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hacer reto de automatizacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-24T03:17:21" hostname="DESKTOP-12HBE5R" time="15.297">
+<testsuite name="hacer reto de automatizacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-24T03:39:25" hostname="DESKTOP-12HBE5R" time="17.126">
   <properties/>
-  <testcase name="Ingresar a la pagina y realizra compra" classname="hacer reto de automatizacion" time="15.297"/>
+  <testcase name="Ingresar a la pagina y realizra compra" classname="hacer reto de automatizacion" time="17.126"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[ene. 23, 2025 10:17:22 P. M. org.openqa.selenium.remote.DesiredCapabilities firefox
+  <system-err><![CDATA[ene. 23, 2025 10:39:26 P. M. org.openqa.selenium.remote.DesiredCapabilities firefox
 INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
-ene. 23, 2025 10:17:22 P. M. org.openqa.selenium.remote.DesiredCapabilities firefox
+ene. 23, 2025 10:39:26 P. M. org.openqa.selenium.remote.DesiredCapabilities firefox
 INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
-1737688642938	geckodriver	INFO	Listening on 127.0.0.1:12223
-1737688643535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MONICA~1\\AppData\\Local\\Temp\\rust_mozprofilerp1RrV"
+1737689967168	geckodriver	INFO	Listening on 127.0.0.1:35093
+1737689967770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MONICA~1\\AppData\\Local\\Temp\\rust_mozprofileI1YOVM"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1737688643949	Marionette	INFO	Marionette enabled
+1737689968202	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1737688643955	Marionette	INFO	Listening on port 56850
-1737688644127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MONICA~1\\AppData\\Local\\Temp\\rust_mozprofilerp1RrV\\search.json.mozlz4", (void 0)))
-ene. 23, 2025 10:17:25 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+1737689968208	Marionette	INFO	Listening on port 63509
+1737689968348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MONICA~1\\AppData\\Local\\Temp\\rust_mozprofileI1YOVM\\search.json.mozlz4", (void 0)))
+ene. 23, 2025 10:39:30 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
@@ -26,19 +26,13 @@ JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript warning: https://pagead2.googlesyndication.com/bg/YXa8x4IpV7RUmLlP9fsBb_IUTcrbse9n09VtVavGLaY.js line 2 > eval line 3230 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YXa8x4IpV7RUmLlP9fsBb_IUTcrbse9n09VtVavGLaY.js line 2 > eval line 5289 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
-JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 95: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
-JavaScript warning: https://pagead2.googlesyndication.com/bg/YXa8x4IpV7RUmLlP9fsBb_IUTcrbse9n09VtVavGLaY.js line 2 > eval line 676 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1737688655566	Marionette	INFO	Stopped listening on port 56850
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YXa8x4IpV7RUmLlP9fsBb_IUTcrbse9n09VtVavGLaY.js line 2 > eval line 5016 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737689981588	Marionette	INFO	Stopped listening on port 63509
 Dynamically enable window occlusion 1
-[Parent 6740, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity
