@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Ejemplo de automatizacion con preguntas</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="051bbb16752a53ec9020cc9a34a916414e6e2fab5062d868f8f8126ee89f67da.html">Hacer Reto De Automatizacion</a></span>
+                > <span class="truncate-60"><a
+                    href="6276db6dabac59f3991d66719dd1cee54f43521c704f8150cdb289ff6363065c.html">Ingresar a la pagina y realizra compra </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2025 22:17</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Hacer Reto De Automatizacion</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a usuario de Banistmo
+I deseo realizar una compra
+to validar que no sea mayor a 400
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="980553ab65ac3a80cb226527d564bcf09dfb50e9d5c6245f24578a314fb4b271.html">Cucumber
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Ingresar a la pagina y realizra compra
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="042e117e2e3fb57e89f56ad1e448f98fc4f2e0935802a74c995556558b8a5dff.png" title=" Given que Moni esta en la pagina de compras" width="1920"/>
+                <img src="042e117e2e3fb57e89f56ad1e448f98fc4f2e0935802a74c995556558b8a5dff.png" title=" Monica enter to Google page" width="1920"/>
+                <img src="042e117e2e3fb57e89f56ad1e448f98fc4f2e0935802a74c995556558b8a5dff.png" title=" Monica opens the Compras home page" width="1920"/>
+                <img src="042e117e2e3fb57e89f56ad1e448f98fc4f2e0935802a74c995556558b8a5dff.png" title=" Monica enter to Google page (completed)" width="1920"/>
+                <img src="042e117e2e3fb57e89f56ad1e448f98fc4f2e0935802a74c995556558b8a5dff.png" title=" Given que Moni esta en la pagina de compras (completed)" width="1920"/>
+                <img src="ebac820df4641e28aaad1f8484df38cbdd869ef8c48af8b9f40115013ebf986c.png" title=" When ella solicita productos" width="1920"/>
+                <img src="ebac820df4641e28aaad1f8484df38cbdd869ef8c48af8b9f40115013ebf986c.png" title=" Monica seleccionar productos" width="1920"/>
+                <img src="ebac820df4641e28aaad1f8484df38cbdd869ef8c48af8b9f40115013ebf986c.png" title=" Monica clicks on PRIMER PRODUCTO" width="1920"/>
+                <img src="ebac820df4641e28aaad1f8484df38cbdd869ef8c48af8b9f40115013ebf986c.png" title=" Monica clicks on SEGUNDO PRODUCTO" width="1920"/>
+                <img src="0d27d00856a54256bd8b469c9187a282589716ee61d6f1fd14bbfaa433e7fa74.png" title=" Monica clicks on SEGUNDO PRODUCTO (completed)" width="1920"/>
+                <img src="0d27d00856a54256bd8b469c9187a282589716ee61d6f1fd14bbfaa433e7fa74.png" title=" Monica clicks on CARRITO COMPRAS" width="1920"/>
+                <img src="9e6b5db6b107e793099d0bc74b405b0ac1a28b1278e28f5f30e97bfd91d98b44.png" title=" Monica clicks on CARRITO COMPRAS (completed)" width="1920"/>
+                <img src="9e6b5db6b107e793099d0bc74b405b0ac1a28b1278e28f5f30e97bfd91d98b44.png" title=" Monica clicks on ELIMINAR PRODUCTOS" width="1920"/>
+                <img src="1a059b49a8c122ee81843cb32a7e2b39f5122a4defd2ab96f64cee5ed5754a09.png" title=" Monica clicks on ELIMINAR PRODUCTOS (completed)" width="1920"/>
+                <img src="1a059b49a8c122ee81843cb32a7e2b39f5122a4defd2ab96f64cee5ed5754a09.png" title=" Monica seleccionar productos (completed)" width="1920"/>
+                <img src="1a059b49a8c122ee81843cb32a7e2b39f5122a4defd2ab96f64cee5ed5754a09.png" title=" When ella solicita productos (completed)" width="1920"/>
+                <img src="ef62a654493b432873c2e926d194152d0dc05fbf14142a08d457ec48a497c333.png" title=" Then ella valida el precio sea menor a 400" width="1920"/>
+                <img src="ef62a654493b432873c2e926d194152d0dc05fbf14142a08d457ec48a497c333.png" title=" Then validate precio" width="1920"/>
+                <img src="5f4a229fcd40b6af3d2565937187210116a9e94998be30496b93288acff324ce.png" title=" Then validate precio (completed)" width="1920"/>
+                <img src="5f4a229fcd40b6af3d2565937187210116a9e94998be30496b93288acff324ce.png" title=" Then ella valida el precio sea menor a 400 (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.77</span>
+</div>
+</body>
+</html>

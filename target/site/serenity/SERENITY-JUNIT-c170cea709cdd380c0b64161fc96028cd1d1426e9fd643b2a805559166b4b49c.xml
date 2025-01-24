@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="hacer reto de automatizacion" skipped="0" tests="1" time="43.87" timestamp="2022-06-03 04:30:58"><testcase name="Ingresar a la pagina de Bancolombia y solicitar una inversion"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="hacer reto de automatizacion" skipped="0" tests="1" time="21.27" timestamp="2025-01-23 08:37:11"><testcase name="Ingresar a la pagina de Bancolombia y solicitar una inversion"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.SeleccionarPersonas.performAs(SeleccionarPersonas.java:25)&#13;
+stepdefinitions.BancolombiaStepDefinitions.ellaSolicitaUnaInversion(BancolombiaStepDefinitions.java:56)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

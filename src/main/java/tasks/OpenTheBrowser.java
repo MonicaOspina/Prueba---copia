@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Step;
-import userinterfaces.BancolombiaHomePage;
+import userinterfaces.ComprasHomePage;
 
 
 public class OpenTheBrowser implements Task {
@@ -19,7 +19,7 @@ public class OpenTheBrowser implements Task {
     }
 
     //metodo
-    public static OpenTheBrowser on(BancolombiaHomePage page) {
+    public static OpenTheBrowser on(ComprasHomePage page) {
 
         return Tasks.instrumented(OpenTheBrowser.class, page);
     }

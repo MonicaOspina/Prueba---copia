@@ -129,7 +129,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-06-2022 16:30</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2025 20:37</span>
     <br style="clear:left"/>
 </div>
 
@@ -172,9 +172,9 @@ to validar el pdf generado
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Ingresar a la pagina de Bancolombia y solicitar una inversion
+                                <span class="failing-color">Ingresar a la pagina de Bancolombia y solicitar una inversion
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -191,43 +191,70 @@ to validar el pdf generado
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.SeleccionarPersonas.performAs(SeleccionarPersonas.java:25)<br />stepdefinitions.BancolombiaStepDefinitions.ellaSolicitaUnaInversion(BancolombiaStepDefinitions.java:56)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //a[@id='header-solicitud-productos'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>tasks.SeleccionarPersonas.performAs(SeleccionarPersonas.java :25)<br />stepdefinitions.BancolombiaStepDefinitions.ellaSolicitaUnaInversion(BancolombiaStepDefinitions.java :56)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4955941373884675546.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="3fc0ac95289d473ab3a02fb6a1ac12ce688bc81901cf2153e56ad8b4e6285b0b.png" title=" Given que Moni esta en la pagina de Bancolombia" width="1920"/>
-                <img src="3fc0ac95289d473ab3a02fb6a1ac12ce688bc81901cf2153e56ad8b4e6285b0b.png" title=" Monica enter to Google page" width="1920"/>
-                <img src="3fc0ac95289d473ab3a02fb6a1ac12ce688bc81901cf2153e56ad8b4e6285b0b.png" title=" Monica opens the Bancolombia home page" width="1920"/>
-                <img src="3fc0ac95289d473ab3a02fb6a1ac12ce688bc81901cf2153e56ad8b4e6285b0b.png" title=" Given que Moni esta en la pagina de Bancolombia" width="1920"/>
-                <img src="3fc0ac95289d473ab3a02fb6a1ac12ce688bc81901cf2153e56ad8b4e6285b0b.png" title=" Monica enter to Google page (completed)" width="1920"/>
-                <img src="5bf4e74330fd85a0c079e349cea83490150cdd3cb4ee6e022c8d0c2477870dc6.png" title=" When ella solicita una inversion" width="1920"/>
-                <img src="5bf4e74330fd85a0c079e349cea83490150cdd3cb4ee6e022c8d0c2477870dc6.png" title=" Monica seleccionar personas" width="1920"/>
-                <img src="5bf4e74330fd85a0c079e349cea83490150cdd3cb4ee6e022c8d0c2477870dc6.png" title=" Monica clicks on Nuestars Marcas" width="1920"/>
-                <img src="5bf4e74330fd85a0c079e349cea83490150cdd3cb4ee6e022c8d0c2477870dc6.png" title=" Monica clicks on Bancolombia" width="1920"/>
-                <img src="1fe7d130b39c553ae0d207a088c0c07400c4a57f7d10904472eda5eae4e99963.png" title=" Monica clicks on Bancolombia (completed)" width="1920"/>
-                <img src="1fe7d130b39c553ae0d207a088c0c07400c4a57f7d10904472eda5eae4e99963.png" title=" Monica cambiar ventana" width="1920"/>
-                <img src="1bc0edd47cb13d2383224536bd7f87613c2b267f29e6fcf5476e7b4cf3d3b4e3.png" title=" Monica cambiar ventana (completed)" width="1920"/>
-                <img src="1bc0edd47cb13d2383224536bd7f87613c2b267f29e6fcf5476e7b4cf3d3b4e3.png" title=" Monica clicks on Pagina principal" width="1920"/>
-                <img src="93a84bc12995a19a4d28e1226eddaa9f44342200907ee33dfdac24d95d531c62.png" title=" Monica clicks on Pagina principal (completed)" width="1920"/>
-                <img src="93a84bc12995a19a4d28e1226eddaa9f44342200907ee33dfdac24d95d531c62.png" title=" Monica clicks on personas" width="1920"/>
-                <img src="ab34e16b04b3c743eabec4b88ff9ddce4a88c76e7ae81b6b2bba8ea1ab1cd92d.png" title=" Monica clicks on personas (completed)" width="1920"/>
-                <img src="ab34e16b04b3c743eabec4b88ff9ddce4a88c76e7ae81b6b2bba8ea1ab1cd92d.png" title=" Monica clicks on solicitar productos" width="1920"/>
-                <img src="b9b25b24d390a51836cc722e74e180e8b1dbfc30e629d329695d4d88b3c6ec45.png" title=" Monica clicks on solicitar productos (completed)" width="1920"/>
-                <img src="b9b25b24d390a51836cc722e74e180e8b1dbfc30e629d329695d4d88b3c6ec45.png" title=" Monica clicks on solicitar productos" width="1920"/>
-                <img src="f422f27ef224a3bebf94cc5c1602c8f6321de8977bca41365ed6d9208d0cef0f.png" title=" Monica clicks on solicitar productos (completed)" width="1920"/>
-                <img src="f422f27ef224a3bebf94cc5c1602c8f6321de8977bca41365ed6d9208d0cef0f.png" title=" Monica clicks on flecha" width="1920"/>
-                <img src="41b2df84ca2bf4a105fda3ac43e42669ff586a52800f442e4fccc1000ec26dc7.png" title=" Monica clicks on flecha (completed)" width="1920"/>
-                <img src="41b2df84ca2bf4a105fda3ac43e42669ff586a52800f442e4fccc1000ec26dc7.png" title=" Monica clicks on monto m&iacute;nimo" width="1920"/>
-                <img src="470c8e132d6cb5c4eed4500c869a9c917a6be1542ce770543e269e13dda844d1.png" title=" Monica clicks on monto m&iacute;nimo (completed)" width="1920"/>
-                <img src="470c8e132d6cb5c4eed4500c869a9c917a6be1542ce770543e269e13dda844d1.png" title=" Monica clicks on conoce mas" width="1920"/>
-                <img src="59d061357732efeedbc568236cf9bb0367efb115827a64987efa6170cbb888fb.png" title=" Monica clicks on conoce mas (completed)" width="1920"/>
-                <img src="59d061357732efeedbc568236cf9bb0367efb115827a64987efa6170cbb888fb.png" title=" Monica clicks on documentos" width="1920"/>
-                <img src="df3edaba6457da86c80dec0e59d93b0be4113155cf0118021735bfb593c00a38.png" title=" Monica clicks on documentos (completed)" width="1920"/>
-                <img src="df3edaba6457da86c80dec0e59d93b0be4113155cf0118021735bfb593c00a38.png" title=" Monica clicks on pdf" width="1920"/>
-                <img src="b7bb0eb645fff22ba1188ddd63e24baed28d0c1510a3005eeb9abe71a6da3044.png" title=" Monica clicks on pdf (completed)" width="1920"/>
-                <img src="b7bb0eb645fff22ba1188ddd63e24baed28d0c1510a3005eeb9abe71a6da3044.png" title=" Monica cambiar ventana" width="1920"/>
-                <img src="1fe7d130b39c553ae0d207a088c0c07400c4a57f7d10904472eda5eae4e99963.png" title=" Monica cambiar ventana (completed)" width="1920"/>
-                <img src="1fe7d130b39c553ae0d207a088c0c07400c4a57f7d10904472eda5eae4e99963.png" title=" Monica seleccionar personas (completed)" width="1920"/>
-                <img src="1fe7d130b39c553ae0d207a088c0c07400c4a57f7d10904472eda5eae4e99963.png" title=" When ella solicita una inversion (completed)" width="1920"/>
-                <img src="1fe7d130b39c553ae0d207a088c0c07400c4a57f7d10904472eda5eae4e99963.png" title=" Then ella valida el pdf generado: <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" Given que Moni esta en la pagina de Bancolombia" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" Monica enter to Google page" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" Monica opens the Bancolombia home page" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" Monica enter to Google page (completed)" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" Given que Moni esta en la pagina de Bancolombia (completed)" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" When ella solicita una inversion" width="1920"/>
+                <img src="e1ed673c0d559bce43610370138ef88103ed83cfed74a053e6b3e2f6b878efb9.png" title=" Monica seleccionar personas" width="1920"/>
+                <img src="f837dd1484cd3b7b0aea8a4b04f0f941998811eb98bc1f6b3acf5c4b226d0338.png" title=" Monica clicks on Nuestars Marcas" width="1920"/>
+                <img src="f837dd1484cd3b7b0aea8a4b04f0f941998811eb98bc1f6b3acf5c4b226d0338.png" title=" Monica clicks on Bancolombia" width="1920"/>
+                <img src="f837dd1484cd3b7b0aea8a4b04f0f941998811eb98bc1f6b3acf5c4b226d0338.png" title=" Monica clicks on Bancolombia (completed)" width="1920"/>
+                <img src="f837dd1484cd3b7b0aea8a4b04f0f941998811eb98bc1f6b3acf5c4b226d0338.png" title=" Monica cambiar ventana" width="1920"/>
+                <img src="3509b162046ed459a83c8e489ed8d6332dbf14f0750cbf30ca06e64feebd1229.png" title=" Monica cambiar ventana (completed)" width="1920"/>
+                <img src="3509b162046ed459a83c8e489ed8d6332dbf14f0750cbf30ca06e64feebd1229.png" title=" Monica clicks on personas" width="1920"/>
+                <img src="85d54417daeb11ca7ba131739b6d0b1e89c12f9fa0cb4d51e7e090efa8147273.png" title=" Monica clicks on personas (completed)" width="1920"/>
+                <img src="85d54417daeb11ca7ba131739b6d0b1e89c12f9fa0cb4d51e7e090efa8147273.png" title=" Monica clicks on solicitar productos" width="1920"/>
+                <img src="c1b164f71419651d3fe9b762530592032f84f5aad98faf67345d16b3bb20dc1f.png" title=" Monica clicks on solicitar productos (completed): <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 
